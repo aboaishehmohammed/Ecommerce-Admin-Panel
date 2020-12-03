@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap');
+body{
+    text-align: start;
+
+}
+.card{
+    font-size: 25px;
+}
+.paginate{
+    display: flex;
+    justify-content: flex-end;
+    color: #409EFF;
+    align-items: center;
+    i{font-weight: bold;}
+    i:hover{
+        cursor: pointer;
+    }
+
+}
+td{
+    a:hover{
+        text-decoration: none!important;
+        color: #409EFF!important;
+    }
+}
