@@ -24,7 +24,7 @@
             <b-form-select v-model="sub_category.category_id" class="mb-3" required>
                 <b-form-select-option v-for="(item,index) in categories" :value="item.id" :key="index">{{item.name}}</b-form-select-option>
             </b-form-select>        </b-form-group>
-        <b-button type="submit" variant="primary">Submit</b-button>
+        <b-button type="submit" variant="primary">تعديل</b-button>
     </b-form></div>
 </template>
 
